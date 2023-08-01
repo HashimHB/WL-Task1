@@ -1,0 +1,36 @@
+body{
+    padding-top:59px;
+    padding-left: 528px;
+    background-color: black;
+    /* padding: 65px 156px 65px 155px; */
+    
+}
+
+
+.container{
+    border: 3px solid black;
+    width: 423px;
+    background-color: rgb(254, 254, 254);
+    line-height: 40px;
+    border-radius: 34px;
+    text-align: center
+    /* padding-left: 92px; */
+}
+
+
+.Address{
+    margin: 8px;
+}
+
+textarea{
+    margin:-13px;
+}
+
+button{
+    padding-left: 4px;
+}
+
+label{
+    padding-right:2px ;
+    color: black;
+}

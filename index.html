@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    
+
+
+</head>
+<body>
+    <div class="container">
+        <centre><form id="student-form">
+            <header><h1><i>Student Registration Form</i></h1></header>
+            <label>First Name:</label><input type="text" name="name" id="First Name" placeholder="Enter Your First Name:"><br>
+            <label>Last Name:</label><input type="text" name="name" id="Last Name" placeholder="Enter Your Last Name:"><br>
+            <label>ID No:</label><input type="text" name="DATE" id="ID" placeholder="Enter Your ID" maxlength="12"><br>
+            <label>Enter DOB:</label><input type="date" name="date" id="DOB" ><br>
+            <label>Age:</label><input type="number" name='age'  id='age' placeholder='Age'/><br>
+            <label class="Dept">Dept:</label>
+            <select id="Dept">
+                <option value="None">Select </option>
+                <option value="AIDS">AIDS</option>
+                <option value="CSE">CSE </option>
+                <option value="IT">IT </option>
+                <option value="CSBS">CSBS</option>
+                <option value="BME">BME</option>
+                <option value="MECH">MECH</option>
+                <option value="EEE">EEE</option>
+                <option value="ECE">ECE</option>
+            </select>
+            <label class="year">Year:</label>
+            <select id="Year"> 
+                <option value="None">Select </option>
+                <option value="First Year">First</option>
+                <option value="Second Year">Second</option>
+                <option value="Third Year">Third</option>
+                <option value="Final Year">Final</option>
+            </select><br>
+            <label>Phone No:</label>
+            <input type="text" name="country_code" id="Phone No" placeholder="Enter Country code" title="Error Message" pattern="[1-9]{1}[0-9]{9}" maxlength="13"><br>
+            <label>Qualification:
+            </label>
+            <select id="Qualification">
+                <option value="None">Select </option>
+                <option value="12th">12th</option>
+                <option value="10th">10th </option>
+                <option value="B.Tech">B.Tech </option>
+                <option value="Diploma">Diploma </option>
+
+            </select><br>
+
+            <label>Email ID: </label>
+            <input type="email" id="Email ID" placeholder="abc@gmail.com"><br>
+            <label class="Address">Address:</label>
+            <textarea name="Address" id="Address" style="height:5%;width:215px"></textarea><br>
+            <label>Gender:</label>
+            <input id="gender" type="radio" name="$" value="Male" checked>Male</input><input type="radio" name="$" value="Female">Female</input><br>
+
+
+            <button type="Submit" name="Validate" value="Validate">Submit</button>
+            <button type="reset" value="reset">Reset</button>
+        </form>
+        </centre>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
